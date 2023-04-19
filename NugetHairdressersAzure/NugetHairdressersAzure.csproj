@@ -9,6 +9,7 @@
     <Description>Nuget contenedor de los models de la aplicación Hairdressers_Azure (Cut&amp;Go)</Description>
     <Copyright>Todos los derechos reservados</Copyright>
     <PackageIcon>Barber_logo_small_white.png</PackageIcon>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
