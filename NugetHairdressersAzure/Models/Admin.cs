@@ -1,0 +1,10 @@
+﻿namespace Hairdressers_Azure.Models {
+    public enum AdminRole { Propietario = 1, Gerente = 2, Supervisor = 3, Empleado = 4 }
+    public class Admin {
+
+        public int HairdresserId { get; set; }
+        public int UserId { get; set; }
+        public byte Role { get; set; }
+
+    }
+}

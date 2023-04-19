@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Giovanny Andrés Cortés Hernández</Authors>
+    <Description>Nuget contenedor de los models de la aplicación Hairdressers_Azure (Cut&amp;Go)</Description>
+    <Copyright>Todos los derechos reservados</Copyright>
+    <PackageIcon>Barber_logo_small_white.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Hairdressers_Azure\Hairdressers_Azure\wwwroot\images\logos\Barber_logo_small_white.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
