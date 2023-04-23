@@ -6,11 +6,15 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Giovanny Andrés Cortés Hernández</Authors>
-    <Description>Modelos e interfaz de la aplicación web Cut&amp;Go</Description>
+    <Description>Componentes de la aplicación web, Cut&amp;Go:
+- Models
+- Interface
+- HelperCryptography</Description>
     <Copyright>© 2023 Todos los derechos reservados</Copyright>
     <PackageIcon>Barber_logo_small_white.png</PackageIcon>
-    <Version>3.1.0</Version>
+    <Version>1.0.0</Version>
     <Title>Cut&amp;Go Components</Title>
+    <PackageId>CutAndGo.Components</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
