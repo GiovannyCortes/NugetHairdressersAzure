@@ -1,4 +1,4 @@
-﻿namespace NugetHairdressersAzure.Models {
+﻿namespace CutAndGo.Models {
     public enum StatusAppointment :int { NoConfirmada = 0, Finalizada = 1, Activa = 2, Cancelada = 3 }
     public class Appointment {
 

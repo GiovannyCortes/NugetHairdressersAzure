@@ -1,6 +1,6 @@
-﻿using NugetHairdressersAzure.Models;
+﻿using CutAndGo.Models;
 
-namespace NugetHairdressersAzure.Interfaces {
+namespace CutAndGo.Interfaces {
     public interface IRepositoryHairdresser {
 
         #region ENUMS

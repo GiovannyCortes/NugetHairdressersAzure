@@ -1,4 +1,4 @@
-﻿namespace NugetHairdressersAzure.Models {
+﻿namespace CutAndGo.Models {
     public class Appointment_Service {
 
         public int AppointmentId { get; set; }

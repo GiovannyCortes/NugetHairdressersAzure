@@ -1,4 +1,4 @@
-﻿namespace NugetHairdressersAzure.Models {
+﻿namespace CutAndGo.Models {
     public class Schedule_Row {
 
         public int ScheduleRowId { get; set; }

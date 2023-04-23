@@ -1,4 +1,4 @@
-﻿namespace NugetHairdressersAzure.Models {
+﻿namespace CutAndGo.Models {
     public class Response {
 
         public int ResponseCode { get; set; }       // Código genérico de respuesta. Se basa en la enumeración ResponseCodes
