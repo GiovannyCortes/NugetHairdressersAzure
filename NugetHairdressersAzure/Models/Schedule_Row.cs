@@ -1,4 +1,4 @@
-﻿namespace Hairdressers_Azure.Models {
+﻿namespace NugetHairdressersAzure.Models {
     public class Schedule_Row {
 
         public int ScheduleRowId { get; set; }

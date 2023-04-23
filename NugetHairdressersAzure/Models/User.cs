@@ -1,4 +1,4 @@
-﻿namespace Hairdressers_Azure.Models {
+﻿namespace NugetHairdressersAzure.Models {
     public class User {
 
         public int UserId { get; set; }
