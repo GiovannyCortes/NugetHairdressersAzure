@@ -39,7 +39,7 @@ namespace CutAndGo.Interfaces {
         Task<bool> CompareAdminRoleAsync(int hairdresser_id, int user_id_me, int user_id_other);
         Task<Response> InsertAdminAsync(int hairdresser_id, int user_id, AdminRole role);
         Task<Response> UpdateAdminAsync(int hairdresser_id, int user_id, AdminRole role);
-        Task<Response> DeleteAdminAsync(int hairdresser_id, int user_id);
+        Task<Response> DeleteAdminAsync(int hairdresser_id, int user_id_me, int user_id_other);
         #endregion
 
         #region USERS
@@ -78,6 +78,7 @@ namespace CutAndGo.Interfaces {
         Task<List<Schedule_Row>> GetScheduleRowsAsync(int schedule_id);
         Task<List<Schedule_Row>> GetActiveScheduleRowsAsync(int hairdresser_id);
         Task<Response> InsertScheduleRowsAsync(int schid, TimeSpan start, TimeSpan end, bool mon, bool tue, bool wed, bool thu, bool fri, bool sat, bool sun);
+        Task<Response> ValidateScheduleRowAsync(Schedule_Row schedule_row);
         Task<Response> DeleteScheduleRowsAsync(int schedule_row_id);
         #endregion
 
