@@ -12,7 +12,7 @@
 - HelperCryptography</Description>
     <Copyright>© 2023 Todos los derechos reservados</Copyright>
     <PackageIcon>Barber_logo_small_white.png</PackageIcon>
-    <Version>3.0.1</Version>
+    <Version>3.0.2</Version>
     <Title>Cut&amp;Go Components</Title>
     <PackageId>CutAndGo.Components</PackageId>
   </PropertyGroup>

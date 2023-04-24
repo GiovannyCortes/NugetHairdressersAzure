@@ -95,7 +95,7 @@ namespace CutAndGo.Interfaces {
         #region SERVICES
         Task<Service?> FindServiceAsync(int service_id);
         Task<List<Service>> GetServicesByHairdresserAsync(int hairdresser_id);
-        Task<List<Service>> GetServicesByAppointmentAsync(int appoinment_id);
+        Task<List<Service>> GetServicesByAppointmentAsync(int appointment_id);
         Task<List<Service>> GetServicesByIdentificationAsync(List<int> app_services);
         Task<Response> InsertServiceAsync(int hairdresser_id, string name, decimal price, byte duration);
         Task<Response> UpdateServiceAsync(int service_id, string name, decimal price, byte duration);
