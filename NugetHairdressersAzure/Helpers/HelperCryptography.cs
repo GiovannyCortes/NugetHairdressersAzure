@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace CutAndGo.Helpers {
+namespace CutAndGo.Utilities.Helpers {
     public class HelperCryptography {
 
         public static string Salt { get; set; }
