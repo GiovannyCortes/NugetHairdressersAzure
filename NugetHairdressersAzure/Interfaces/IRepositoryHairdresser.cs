@@ -1,6 +1,6 @@
 ﻿using CutAndGo.Models;
 
-namespace CutAndGo.Utilities.Interfaces {
+namespace CutAndGo.Interfaces {
     public interface IRepositoryHairdresser {
 
         #region ENUMS
