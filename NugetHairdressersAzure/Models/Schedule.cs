@@ -1,11 +1,22 @@
-﻿namespace CutAndGo.Models {
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace CutAndGo.Models {
+
+    [Table("SCHEDULES")]
     public class Schedule {
-
+        [Column("schedule_id")]
         public int ScheduleId { get; set; }
+        
+        [Column("hairdresser_id")]
         public int HairdresserId { get; set; }
+        
+        [Column("name")]
         public string Name { get; set; }
+        
+        [Column("active")]
         public bool Active { get; set; }
-        public List<Schedule_Row> ScheduleRows { get; set; }
 
+        public virtual ICollection<Schedule_Row> ScheduleRows { get; set; }
     }
+
 }
