@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CutAndGo.Models {
 
     [Table("HAIRDRESSERS")]
     public class Hairdresser {
-        [Column("hairdresser_id")]
+        [Key] [Column("hairdresser_id")]
         public int HairdresserId { get; set; }
         
         [Column("name")]

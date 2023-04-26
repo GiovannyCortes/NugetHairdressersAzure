@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CutAndGo.Models {
 
     [Table("USERS")]
     public class User {
-        [Column("user_id")]
+        [Key] [Column("user_id")]
         public int UserId { get; set; }
         
         [Column("password")]

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CutAndGo.Models {
 
@@ -6,7 +7,7 @@ namespace CutAndGo.Models {
 
     [Table("APPOINTMENTS")]
     public class Appointment {
-        [Column("appointmnet_id")]
+        [Key] [Column("appointmnet_id")]
         public int AppointmentId { get; set; }
         
         [Column("user_id")]

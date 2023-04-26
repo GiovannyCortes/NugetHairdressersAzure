@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CutAndGo.Models {
 
     [Table("SCHEDULE_ROWS")]
     public class Schedule_Row {
-        [Column("schedule_row_id")]
+        [Key] [Column("schedule_row_id")]
         public int ScheduleRowId { get; set; }
         
         [Column("schedule_id")]
