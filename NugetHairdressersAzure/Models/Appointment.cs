@@ -7,7 +7,7 @@ namespace CutAndGo.Models {
 
     [Table("APPOINTMENTS")]
     public class Appointment {
-        [Key] [Column("appointmnet_id")]
+        [Key] [Column("appointment_id")]
         public int AppointmentId { get; set; }
         
         [Column("user_id")]

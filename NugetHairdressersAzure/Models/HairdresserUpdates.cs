@@ -5,6 +5,6 @@
         public string? Phone { get; set; }
         public string Address { get; set; }
         public int PostalCode { get; set; }
-        public string? Image { get; set; }
+        public string? ImageExtension { get; set; }
     }
 }
