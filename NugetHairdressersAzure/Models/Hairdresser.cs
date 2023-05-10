@@ -22,6 +22,9 @@ namespace CutAndGo.Models {
         
         [Column("token")]
         public string? Token { get; set; }
+
+        [Column("image")]
+        public string? Image { get; set; }
     }
 
 }

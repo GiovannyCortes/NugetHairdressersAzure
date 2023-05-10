@@ -34,6 +34,9 @@ namespace CutAndGo.Models {
         
         [Column("temp_token")]
         public string? TempToken { get; set; }
+
+        [Column("image")]
+        public string? Image { get; set; }
     }
 
 }

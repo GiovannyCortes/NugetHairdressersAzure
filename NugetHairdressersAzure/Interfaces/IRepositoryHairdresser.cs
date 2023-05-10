@@ -46,7 +46,7 @@ namespace CutAndGo.Interfaces {
         Task<bool> UserIsAdminAsync(int user_id);
         Task<bool> EmailExistAsync(string email);
         Task<User?> FindUserAsync(int user_id);
-        Task<User?> InsertUserAsync(string password, string name, string lastname, string phone, string email, bool econfirmed);
+        Task<User?> InsertUserAsync(string name, string lastname, string phone, string email, string password);
         Task<Response> UpdateUserAsync(int user_id, string name, string lastname, string phone, string email);
         Task<bool> DropUserRelationsAsync(int user_id);
         Task<Response> DeleteUserAsync(int user_id);
