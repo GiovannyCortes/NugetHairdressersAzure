@@ -46,8 +46,8 @@ namespace CutAndGo.Interfaces {
         Task<bool> UserIsAdminAsync(int user_id);
         Task<bool> EmailExistAsync(string email);
         Task<User?> FindUserAsync(int user_id);
-        Task<User?> InsertUserAsync(string name, string lastname, string phone, string email, string password, string image);
-        Task<Response> UpdateUserAsync(int user_id, string name, string lastname, string phone, string email, string image);
+        Task<User?> InsertUserAsync(string name, string lastname, string phone, string email, string password, string image_extension);
+        Task<Response> UpdateUserAsync(int user_id, string name, string lastname, string phone, string email, string image_extension);
         Task<bool> DropUserRelationsAsync(int user_id);
         Task<Response> DeleteUserAsync(int user_id);
         Task<Response> ValidateEmailAsync(int user_id);
@@ -59,8 +59,8 @@ namespace CutAndGo.Interfaces {
         Task<List<Hairdresser>> GetHairdressersAsync();
         Task<List<Hairdresser>> GetHairdressersByUserAsync(int user_id);
         Task<List<Hairdresser>> GetHairdressersByFilterNameAsync(string filterName);
-        Task<Response> InsertHairdresserAsync(string name, string phone, string address, int postal_code, string image, int user_id);
-        Task<Response> UpdateHairdresserAsync(int hairdresser_id, string name, string phone, string address, int postal_code, string image);
+        Task<Response> InsertHairdresserAsync(string name, string phone, string address, int postal_code, string image_extension, int user_id);
+        Task<Response> UpdateHairdresserAsync(int hairdresser_id, string name, string phone, string address, int postal_code, string image_extension);
         Task<Response> DeleteHairdresserAsync(int hairdresser_id);
         #endregion
 
