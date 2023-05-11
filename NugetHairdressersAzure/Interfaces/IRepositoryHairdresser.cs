@@ -89,7 +89,7 @@ namespace CutAndGo.Interfaces {
         Task<List<Appointment>> GetAppointmentsByUserAsync(int user_id);
         Task<List<Appointment>> GetAppointmentsByHairdresserAsync(int hairdresser_id);
         Task<Response> InsertAppointmentAsync(int user_id, int hairdresser_id, DateTime date, TimeSpan time);
-        Task<Response> UpdateAppointmentAsync(int appointment_id, DateTime date, TimeSpan time);
+        Task<Response> UpdateAppointmentAsync(int appointment_id, DateTime date, TimeSpan time, int status);
         Task<Response> DeleteAppointmentAsync(int appointment_id);
         Task<Response> ApproveAppointmentAsync(int appointment_id);
         #endregion
