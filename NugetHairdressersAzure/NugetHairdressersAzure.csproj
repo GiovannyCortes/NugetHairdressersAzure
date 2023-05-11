@@ -11,7 +11,7 @@
 - Interface</Description>
     <Copyright>© 2023 Todos los derechos reservados</Copyright>
     <PackageIcon>Barber_logo_small_white.png</PackageIcon>
-    <Version>2.6.6</Version>
+    <Version>2.6.7</Version>
     <Title>Cut&amp;Go</Title>
     <PackageId>CutAndGo</PackageId>
   </PropertyGroup>
