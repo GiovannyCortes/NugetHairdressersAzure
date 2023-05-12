@@ -11,13 +11,13 @@
 - Interface</Description>
     <Copyright>© 2023 Todos los derechos reservados</Copyright>
     <PackageIcon>Barber_logo_small_white.png</PackageIcon>
-    <Version>2.6.7</Version>
+    <Version>2.6.8</Version>
     <Title>Cut&amp;Go</Title>
     <PackageId>CutAndGo</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\..\Desktop\HAIRDRESSERS RECURSORS\logo\Barber_logo_small_white.png">
+    <None Include="..\..\Hairdressers_Azure\Hairdressers_Azure\wwwroot\images\logos\Barber_logo_small_white.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

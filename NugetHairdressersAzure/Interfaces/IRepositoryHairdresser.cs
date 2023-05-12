@@ -26,7 +26,7 @@ namespace CutAndGo.Interfaces {
         #endregion
 
         #region TOKENS
-        string GenerateToken();
+        //string GenerateToken();
         Task<bool> UserAssignTokenAsync(int user_id, string token);
         Task<bool> UserValidateTokenAsync(int user_id, string token);
         Task<bool> HairdresserValidateTokenAsync(int hairdresser_id, string token);
