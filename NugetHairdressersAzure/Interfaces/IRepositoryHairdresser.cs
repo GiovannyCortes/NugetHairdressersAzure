@@ -36,10 +36,10 @@ namespace CutAndGo.Interfaces {
         Task<Admin?> FindAdminAsync(int hairdresser_id, int user_id);
         Task<List<Admin>> GetAdminsAsync(int hairdresser_id);
         Task<bool> AdminExistAsync(int hairdresser_id, int user_id);
-        Task<bool> CompareAdminRoleAsync(int hairdresser_id, int user_id_me, int user_id_other);
+        Task<bool> CompareAdminRoleAsync(int hairdresser_id, int user_id_other);
         Task<Response> InsertAdminAsync(int hairdresser_id, int user_id, AdminRole role);
         Task<Response> UpdateAdminAsync(int hairdresser_id, int user_id, AdminRole role);
-        Task<Response> DeleteAdminAsync(int hairdresser_id, int user_id_me, int user_id_other);
+        Task<Response> DeleteAdminAsync(int hairdresser_id, int user_id_other);
         #endregion
 
         #region USERS
